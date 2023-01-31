@@ -38,6 +38,7 @@ declare module '@vue/runtime-core' {
     MapMenu: typeof import('./src/components/mapMenu/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    VanButton: typeof import('vant/es')['Button']
     WeatherTimeLine: typeof import('./src/components/WeatherTimeLine.vue')['default']
   }
 }
